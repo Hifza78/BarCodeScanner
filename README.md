@@ -1,6 +1,6 @@
-# barcode_scanner_app
+# BarCode Scanner App
 
-A new Flutter project.
+A Flutter barcode scanner application with Google Drive integration, camera capture, upload queue, and multi-language support.
 
 ## Getting Started
 
