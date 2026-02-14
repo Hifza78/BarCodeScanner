@@ -1,0 +1,63 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Barcode bars (white) -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:fillAlpha="0.9"
+        android:pathData="
+            M34,38 h3 v24 h-3 Z
+            M39,38 h1.5 v24 h-1.5 Z
+            M43,38 h3 v24 h-3 Z
+            M48,38 h1.5 v24 h-1.5 Z
+            M52,38 h3.5 v24 h-3.5 Z
+            M58,38 h1.5 v24 h-1.5 Z
+            M62,38 h3 v24 h-3 Z
+            M67,38 h1.5 v24 h-1.5 Z
+            M71,38 h3.5 v24 h-3.5 Z" />
+
+    <!-- Scanner corner brackets -->
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="3"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000"
+        android:pathData="
+            M28,44 L28,34 L38,34
+            M70,34 L80,34 L80,44
+            M28,56 L28,66 L38,66
+            M70,66 L80,66 L80,56" />
+
+    <!-- Scanner line (amber/gold) -->
+    <path
+        android:strokeColor="#FBBF24"
+        android:strokeWidth="2.5"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000"
+        android:pathData="M26,50 L82,50" />
+
+    <!-- Checkmark badge circle (amber) -->
+    <path
+        android:fillColor="#F59E0B"
+        android:pathData="M73,66 A7,7 0 1,1 73,80 A7,7 0 1,1 73,66 Z" />
+
+    <!-- Badge border -->
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="1"
+        android:fillColor="#00000000"
+        android:pathData="M73,66 A7,7 0 1,1 73,80 A7,7 0 1,1 73,66 Z" />
+
+    <!-- Checkmark -->
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="2"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:fillColor="#00000000"
+        android:pathData="M70.2,73 L72.65,75.45 L75.8,70.9" />
+
+</vector>
